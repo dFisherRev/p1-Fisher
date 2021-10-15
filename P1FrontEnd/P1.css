@@ -1,0 +1,50 @@
+#allClientButton {
+    background-color: burlywood;
+    font: bold;
+}
+th{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size-adjust: calc();
+}
+html{
+    background-color: antiquewhite;
+}
+title{
+    background-color: antiquewhite;
+}
+div{
+    background-color: antiquewhite;
+    
+}
+#tableLabel{
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 20pt;
+}
+#tagLine{
+    float: left;
+    width: 50%;
+    font-size: 30pt;
+    font-family: sans-serif;
+    background-color: bisque;
+    justify-content: center;
+    text-align: center;
+    padding:0%;
+
+}
+#loginBox{
+    float: right;
+    padding: 0%;
+}
+#smile{
+    background-color: bisque;
+    
+}
+body{
+    background-color: antiquewhite;
+
+}
+#clientByIDButton{
+    color: burlywood;
+}

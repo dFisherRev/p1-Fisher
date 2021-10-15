@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IEedge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Happy Insurance!</title>
+    <link rel ="stylesheet" href ="P1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class = "container" id="fullcontainer">
+        <div id="tagLine">Happy Insurance</div>
+        <div id = "login-row" class="row">
+            <div id="loginBox">
+            <h3 class="col-lg-12">Enter Login</h3>
+            <input id="username" type="text" placeholder="username" class="col-sm-4">
+            <input id="password" type="password" placeholder="password" class="col-sm-4">
+            <button id="loginButton" class="btn btn">Login</button>
+            </div>
+        </div>
+        <div id="table-row" class="row">
+            <table id ="clientTable" class="table table-hover table-bordered table-dark">
+                <thead id="tableLabel"></thead>
+                    <tr>
+                        <th>Policy Number</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Deductable</th>
+                        <th>Street Number/Name</th>
+
+                    </tr>
+                </thead>
+                <tbody id="clientsBody">
+
+                </tbody>
+            </table> 
+        
+        
+        </div>
+        
+            <h3>Best Clients Above!</h3>
+           
+            
+        <button id="allClientButton" class="btn btn">Show Client Data</button>
+        <br>
+        <br>
+        <input type="text" id = "newFirstName" placeholder="First Name" class="col-sm-2">
+        <input type="text" id = "newLastName" placeholder="Last Name" class="col-sm-2">
+        <input type="text" id = "newDeductable" placeholder="Deductable" class="col-sm-1">
+        <input type="text" id = "newStreetName/Number" placeholder="Street Name/Number" class="col-sm-4">
+        <button id = "addClientButton" class ="btn btn-dark">Add Client</button>
+    </div>
+    
+    <script src="Client.js"></script>
+</body>
+
+
+
+
+
+</html>
